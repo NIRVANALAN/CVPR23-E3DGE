@@ -38,7 +38,7 @@ E3DGE is an encoder-based 3D GAN inversion framework that yields high-quality sh
 </tr>
 </table>
 
-For more visual results, go checkout our <a href="" target="_blank">project page</a> :page_with_curl:
+For more visual results, go checkout our <a href="https://nirvanalan.github.io/projects/E3DGE/index.html" target="_blank">project page</a> :page_with_curl:
 
 Codes coming soon :facepunch:
 <!-- This repository will contain the official implementation of _E3DGE: 
@@ -47,9 +47,9 @@ Self-supervised Geometry-Aware Encoder for Style-based 3d GAN Inversion_. -->
 ---
 
 <h4 align="center">
-  <a href="https://hongfz16.github.io/projects/EVA3D.html" target='_blank'>[Project Page]</a> •
-  <a href="https://arxiv.org/abs/2210.04888" target='_blank'>[arXiv]</a> •
-  <a href="https://youtu.be/JNV0FJ0aDWM" target='_blank'>[Demo Video]</a>
+  <a href="https://nirvanalan.github.io/projects/E3DGE/index.html" target='_blank'>[Project Page]</a> •
+  <a href="https://arxiv.org/abs/2212.07409" target='_blank'>[arXiv]</a> •
+  <a href="https://drive.google.com/file/d/1yDkJfJOLeVlON7ZdRSnR34Ra_ikTVI0A/preview" target='_blank'>[Demo Video]</a>
 </h4>
 
 </div>
@@ -57,10 +57,10 @@ Self-supervised Geometry-Aware Encoder for Style-based 3d GAN Inversion_. -->
 ## Citation
 If you find our work useful for your research, please consider citing the paper:
 ```
-@article{lan2019e3dge,
-  title={E3DGE: Self-supervised Geometry-Aware Encoder for Style-based 3d GAN Inversion},
+@article{lan2022e3dge,
+  title={E3DGE: Self-supervised Geometry-Aware Encoder for Style-based 3D GAN Inversion},
   author={Lan, Yushi and Meng, Xuyi and Yang, Shuai and Loy, Chen Change and Dai, Bo},
-  journal={arXiv preprint arXiv:???},
+  journal={arXiv preprint arXiv:2212.07409},
   year={2022}
 }
 ```
