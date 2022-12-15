@@ -5,17 +5,22 @@ E3DGE: Self-Supervised Geometry-Aware Encoder for Style-based 3D GAN Inversion
 </h1>
 
 <div>
-    <a href='https://github.com/NIRVANALAN' target='_blank'>Yushi Lan</a>&emsp;
-    <a href='' target='_blank'>Xuyi Meng</a>&emsp;
-    <a href='https://williamyang1991.github.io/' target='_blank'>Shuai Yang</a>&emsp;
-    <a href='https://www.mmlab-ntu.com/person/ccloy/' target='_blank'>Chen Change Loy</a>&emsp;
+    <a href='https://github.com/NIRVANALAN' target='_blank'>Yushi Lan</a><sup>1</sup>&emsp;
+    <a href='' target='_blank'>Xuyi Meng</a><sup>1</sup>&emsp;
+    <a href='https://williamyang1991.github.io/' target='_blank'>Shuai Yang</a><sup>1</sup>&emsp;
+    <a href='https://www.mmlab-ntu.com/person/ccloy/' target='_blank'>Chen Change Loy</a>
+    <sup>1</sup> &emsp;
     <a href='https://daibo.info/' target='_blank'>Bo Dai</a>
-    <!-- <sup>*</sup> -->
+    <sup>2</sup>
 </div>
 <div>
-    S-Lab, Nanyang Technological University&emsp
+    S-Lab, Nanyang Technological University<sup>1</sup>;
+    &emsp;
+    Shanghai Artificial Intelligence Laboratory <sup>2</sup>
     <!-- ; <sup>*</sup>corresponding author -->
 </div>
+
+<br>
 
 <h4>
 E3DGE is an encoder-based 3D GAN inversion framework that yields high-quality shape and texture reconstruction.
