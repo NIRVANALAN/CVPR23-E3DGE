@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>
-E3DGE: Self-supervised Geometry-Aware Encoder for Style-based 3d GAN Inversion
+E3DGE: Self-Supervised Geometry-Aware Encoder for Style-based 3D GAN Inversion
 </h1>
 
 <div>
@@ -9,10 +9,12 @@ E3DGE: Self-supervised Geometry-Aware Encoder for Style-based 3d GAN Inversion
     <a href='' target='_blank'>Xuyi Meng</a>&emsp;
     <a href='https://williamyang1991.github.io/' target='_blank'>Shuai Yang</a>&emsp;
     <a href='https://www.mmlab-ntu.com/person/ccloy/' target='_blank'>Chen Change Loy</a>&emsp;
-    <a href='https://daibo.info/' target='_blank'>Bo Dai</a><sup>*</sup>
+    <a href='https://daibo.info/' target='_blank'>Bo Dai</a>
+    <!-- <sup>*</sup> -->
 </div>
 <div>
-    S-Lab, Nanyang Technological University&emsp; <sup>*</sup>corresponding author
+    S-Lab, Nanyang Technological University&emsp
+    <!-- ; <sup>*</sup>corresponding author -->
 </div>
 
 <h4>
@@ -21,21 +23,31 @@ E3DGE is an encoder-based 3D GAN inversion framework that yields high-quality sh
 
 <table>
 <tr>
-    <td><img src="assets/0032_rgb.gif" width="100%"/></td>
-    <td><img src="assets/0032_geo.gif" width="100%"/></td>
-    <td><img src="assets/0067_rgb.gif" width="100%"/></td>
-    <td><img src="assets/0067_geo.gif" width="100%"/></td>
-    <td><img src="assets/0021_rgb_dancing.gif" width="98%"/></td>
-    <td><img src="assets/0001_rgb_interpolation.gif" width="88%"/></td>
+    <!-- <td><img src="assets/322.jpg" width="100%"/></td> -->
+     <td rowspan="2"><img src="assets/322.jpg" width="100%"/></td>
+    <td><img src="assets/inversion/322_tex.gif" width="100%"/></td>
+    <td><img src="assets/editing/tex_0_opt.gif" width="100%"/></td>
+    <td><img src="assets/editing/tex_1.0_opt.gif" width="100%"/></td>
+    <td><img src="assets/toonify/322_tex.gif" width="100%"/></td>
 </tr>
+
 <tr>
-    <td align='center' width='14%'>Sample 1 RGB</td>
-    <td align='center' width='14%'>Sample 1 Geo</td>
-    <td align='center' width='14%'>Sample 2 RGB</td>
-    <td align='center' width='14%'>Sample 2 Geo</td>
-    <td align='center' width='19%'>Novel Pose Generation</td>
-    <td align='center' width='19%'>Latent Space Interpolation</td>
+    <!-- <td><img src="assets/322.jpg" width="100%"/></td> -->
+    <!-- <td></td> -->
+    <td><img src="assets/inversion/322_geo.gif" width="100%"/></td>
+    <td><img src="assets/editing/geo_0_opt.gif" width="100%"/></td>
+    <td><img src="assets/editing/geo_1.0_opt.gif" width="100%"/></td>
+    <td><img src="assets/toonify/322_geo.gif" width="100%"/></td>
 </tr>
+
+<tr>
+    <td align='center' width='20%'>Input</td>
+    <td align='center' width='20%'>Inversion</td>
+    <td align='center' width='20%'>Editing <br> (-Smile)</td>
+    <td align='center' width='20%'>Editing <br> (+Smile)</td>
+    <td align='center' width='20%'>Toonify</td>
+</tr>
+
 </table>
 
 For more visual results, go checkout our <a href="https://nirvanalan.github.io/projects/E3DGE/index.html" target="_blank">project page</a> :page_with_curl:
@@ -58,7 +70,7 @@ Self-supervised Geometry-Aware Encoder for Style-based 3d GAN Inversion_. -->
 If you find our work useful for your research, please consider citing the paper:
 ```
 @article{lan2022e3dge,
-  title={E3DGE: Self-supervised Geometry-Aware Encoder for Style-based 3D GAN Inversion},
+  title={E3DGE: Self-Supervised Geometry-Aware Encoder for Style-based 3D GAN Inversion},
   author={Lan, Yushi and Meng, Xuyi and Yang, Shuai and Loy, Chen Change and Dai, Bo},
   journal={arXiv preprint arXiv:2212.07409},
   year={2022}
@@ -69,6 +81,6 @@ If you find our work useful for your research, please consider citing the paper:
 
 Distributed under the S-Lab License. See `LICENSE` for more information.
 
-## Acknowledgements
+<!-- ## Acknowledgements
 
-This study is supported by ...
+This study is supported by ... -->
