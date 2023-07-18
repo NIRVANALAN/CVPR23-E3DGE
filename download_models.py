@@ -40,24 +40,24 @@ E3DGE_FFHQ_model = dict(file_url='https://drive.google.com/uc?id=1ZRGAk-ACh5y-8Z
 def download_pretrained_models():
 
     
-    # # download StyleSDF models first
-    # print('Downloading FFHQ pretrained volume renderer')
-    # with requests.Session() as session:
-    #     try:
-    #         download_file(session, ffhq_volume_renderer_spec)
-    #     except:
-    #         print('Google Drive download failed.\n' \
-    #               'Trying do download from alternate server')
-    #         download_file(session, ffhq_volume_renderer_spec, use_alt_url=True)
+    # download StyleSDF models first
+    print('Downloading FFHQ pretrained volume renderer')
+    with requests.Session() as session:
+        try:
+            download_file(session, ffhq_volume_renderer_spec)
+        except:
+            print('Google Drive download failed.\n' \
+                  'Trying do download from alternate server')
+            download_file(session, ffhq_volume_renderer_spec, use_alt_url=True)
 
-    # print('Downloading FFHQ full model (1024x1024)')
-    # with requests.Session() as session:
-    #     try:
-    #         download_file(session, ffhq_full_model_spec)
-    #     except:
-    #         print('Google Drive download failed.\n' \
-    #               'Trying do download from alternate server')
-    #         download_file(session, ffhq_full_model_spec, use_alt_url=True)
+    print('Downloading FFHQ full model (1024x1024)')
+    with requests.Session() as session:
+        try:
+            download_file(session, ffhq_full_model_spec)
+        except:
+            print('Google Drive download failed.\n' \
+                  'Trying do download from alternate server')
+            download_file(session, ffhq_full_model_spec, use_alt_url=True)
 
 
     print('Downloading E3DGE model pretrained on FFHQ.')
@@ -71,24 +71,24 @@ def download_pretrained_models():
             # download_file(session, E3DGE_FFHQ_model_2dalign, use_alt_url=True)
             download_file(session, E3DGE_FFHQ_model, use_alt_url=True)
 
-    # print('Downloading E3DGE Toonifiy encoder & generator pretrained on FFHQ.')
-    # with requests.Session() as session:
-    #     try:
-    #         download_file(session, E3DGE_toonify_generator)
-    #         download_file(session, E3DGE_toonify_encoder)
-    #     except:
-    #         print('Google Drive download failed.\n' \
-    #               'Trying do download from alternate server')
-    #         download_file(session, E3DGE_toonify_encoder, use_alt_url=True)
+    print('Downloading E3DGE Toonifiy encoder & generator pretrained on FFHQ.')
+    with requests.Session() as session:
+        try:
+            download_file(session, E3DGE_toonify_generator)
+            download_file(session, E3DGE_toonify_encoder)
+        except:
+            print('Google Drive download failed.\n' \
+                  'Trying do download from alternate server')
+            download_file(session, E3DGE_toonify_encoder, use_alt_url=True)
 
-    # print('Downloading Arcface model.')
-    # with requests.Session() as session:
-    #     try:
-    #         download_file(session, id_loss_model)
-    #     except:
-    #         print('Google Drive download failed.\n' \
-    #               'Trying do download from alternate server')
-    #         download_file(session, id_loss_model, use_alt_url=True)
+    print('Downloading Arcface model.')
+    with requests.Session() as session:
+        try:
+            download_file(session, id_loss_model)
+        except:
+            print('Google Drive download failed.\n' \
+                  'Trying do download from alternate server')
+            download_file(session, id_loss_model, use_alt_url=True)
     
 
 def download_file(session, file_spec, use_alt_url=False, chunk_size=128, num_attempts=10):
