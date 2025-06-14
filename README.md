@@ -78,7 +78,8 @@ Self-supervised Geometry-Aware Encoder for Style-based 3d GAN Inversion_.
 
 <h4 align="center">
   <a href="https://nirvanalan.github.io/projects/E3DGE/index.html" target='_blank'>[Project Page]</a> •
-  <a href="https://arxiv.org/abs/2212.07409" target='_blank'>[arXiv]</a> •
+  <a href="https://trebuchet.public.springernature.app/get_content/1e6490d8-51c7-48b1-ab20-649243fbf569?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250614&utm_content=10.1007/s11263-025-02496-2" target='_blank'>[IJCV 2025]</a> •
+  <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Lan_Self-Supervised_Geometry-Aware_Encoder_for_Style-Based_3D_GAN_Inversion_CVPR_2023_paper.pdf" target='_blank'>[CVPR 2023]</a> •
   <a href="https://drive.google.com/file/d/1yDkJfJOLeVlON7ZdRSnR34Ra_ikTVI0A/preview" target='_blank'>[Demo Video]</a> •
   <a href="https://colab.research.google.com/github/nirvanalan/E3DGE/blob/main/notebook/CVPR23_E3DGE_Demo.ipynb" target='_blank'>[Colab Demo]</a> 
 </h4>
@@ -103,6 +104,12 @@ Self-supervised Geometry-Aware Encoder for Style-based 3d GAN Inversion_.
 ## :handshake: Citation
 If you find our work useful for your research, please consider citing the paper:
 ```
+@artical{lan2025e3dge_ijcv,
+  title={E3DGE: Self-Supervised Geometry-Aware Encoder for Style-based 3D GAN Inversion},
+  author={Lan, Yushi and Meng, Xuyi and Yang, Shuai and Loy, Chen Change and Dai, Bo},
+  journal={IJCV},
+  year={2025}
+}
 @inproceedings{lan2022e3dge,
   title={E3DGE: Self-Supervised Geometry-Aware Encoder for Style-based 3D GAN Inversion},
   author={Lan, Yushi and Meng, Xuyi and Yang, Shuai and Loy, Chen Change and Dai, Bo},
